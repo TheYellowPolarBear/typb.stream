@@ -12,7 +12,7 @@ html, body {
 }
 
 html {
-    background-image: url("Images/indevbg.JPG");
+    background-image: url("images/indevbg.JPG");
     background-color: rgba(0, 0, 0, .8);
     background-blend-mode: multiply;
     background-size: cover;
