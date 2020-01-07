@@ -4,7 +4,6 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-shadow: 0px 0px 10px rgba(0, 0, 0);
-    background-image: url('../images/indevbj.JPG');
 }
 
 html, body {
@@ -13,10 +12,12 @@ html, body {
 }
 
 html {
+    background-image: url('../images/indevbj.JPG');
     background-color: rgba(0, 0, 0, .8);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+    
 }
 
 div.text {
