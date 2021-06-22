@@ -3,7 +3,6 @@
 * {
     font-family: 'Open Sans', sans-serif;
     color: white;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0);
 }
 
 html, body {
@@ -12,12 +11,8 @@ html, body {
 }
 
 html {
-    background-image: url(../images/indevbg.JPG);
-    background-color: rgba(0, 0, 0, .8);
-    background-blend-mode: multiply;
+    background-image: url(../images/back.png);
     background-size: cover;
-    padding-bottom: 30px;
-    
 }
 
 div.text {
@@ -26,29 +21,14 @@ div.text {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-
-.social img:hover {
-    background-color: rgba(255, 255, 255, .3)
-}
-
-.footer {
-    background-color: rgb(0, 0, 0, .5);
-    display: flex;
-    align-items: center;
-    font-size: small;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+    transform: translate(-50%, -50%);
 }
 
 a {
+    color: white;
     margin: 10px;
 }
 
-.footer li {
-    list-style-type: none;
-    float: right;
-    margin: 10px;
+div.images img {
+    filter: drop-shadow(0px 0px 5px black);
 }
