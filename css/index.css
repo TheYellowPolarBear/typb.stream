@@ -27,6 +27,7 @@ div.text {
 a {
     color: white;
     margin: 10px;
+    text-decoration: none;
 }
 
 div.images img {
